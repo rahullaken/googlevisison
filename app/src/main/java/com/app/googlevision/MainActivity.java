@@ -20,10 +20,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.core.app.ActivityCompat;
 
-import com.app.googlevision.utils.CameraSourcePreview;
-import com.app.googlevision.utils.FaceTracker;
-import com.app.googlevision.utils.OnUpdateValue;
-import com.app.googlevision.utils.RoundedFrameLayout;
+import com.app.lib_vision.utils.CameraSourcePreview;
+import com.app.lib_vision.utils.FaceTracker;
+import com.app.lib_vision.utils.OnUpdateValue;
+import com.app.lib_vision.utils.RoundedFrameLayout;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.android.gms.vision.CameraSource;

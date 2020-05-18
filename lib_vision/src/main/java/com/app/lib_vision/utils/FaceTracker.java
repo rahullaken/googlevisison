@@ -1,4 +1,4 @@
-package com.app.googlevision.utils;
+package com.app.lib_vision.utils;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -6,6 +6,7 @@ import android.graphics.Color;
 import com.google.android.gms.vision.Detector;
 import com.google.android.gms.vision.Tracker;
 import com.google.android.gms.vision.face.Face;
+
 
 public class FaceTracker extends Tracker<Face> {
     private static final String TAG = FaceTracker.class.getSimpleName();

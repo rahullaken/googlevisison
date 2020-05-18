@@ -1,4 +1,4 @@
-package com.app.googlevision.utils;
+package com.app.lib_vision.utils;
 
 import android.content.Context;
 import android.content.res.Configuration;

@@ -1,4 +1,4 @@
-package com.app.googlevision.utils;
+package com.app.lib_vision.utils;
 
 public interface OnUpdateValue {
     void onUpdateValue(boolean isCapture);
