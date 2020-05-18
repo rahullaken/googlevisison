@@ -7,7 +7,7 @@
     android:padding="24dp"
     tools:context=".MainActivity">
 
-    <com.app.googlevision.utils.RoundedFrameLayout
+    <com.app.lib_vision.utils.RoundedFrameLayout
         android:id="@+id/roundLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,11 +15,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <com.app.googlevision.utils.CameraSourcePreview
+        <com.app.lib_vision.utils.CameraSourcePreview
             android:id="@+id/preview"
             android:layout_width="220dp"
             android:layout_height="220dp" />
-    </com.app.googlevision.utils.RoundedFrameLayout>
+    </com.app.lib_vision.utils.RoundedFrameLayout>
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/capture"
